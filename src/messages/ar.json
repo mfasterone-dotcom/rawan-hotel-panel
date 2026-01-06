@@ -1,0 +1,475 @@
+{
+  "common": {
+    "buttons": {
+      "save": "حفظ",
+      "cancel": "إلغاء",
+      "delete": "حذف",
+      "edit": "تعديل",
+      "view": "عرض",
+      "create": "إنشاء",
+      "update": "تحديث",
+      "submit": "إرسال",
+      "back": "رجوع",
+      "close": "إغلاق",
+      "confirm": "تأكيد",
+      "approve": "موافقة",
+      "reject": "رفض",
+      "add": "إضافة",
+      "remove": "إزالة",
+      "loading": "جاري التحميل...",
+      "saving": "جاري الحفظ...",
+      "deleting": "جاري الحذف...",
+      "verifying": "جاري التحقق...",
+      "resending": "جاري إعادة الإرسال...",
+      "sending": "جاري الإرسال...",
+      "resetting": "جاري إعادة التعيين...",
+      "requesting": "جاري الطلب..."
+    },
+    "labels": {
+      "email": "البريد الإلكتروني",
+      "password": "كلمة المرور",
+      "confirmPassword": "تأكيد كلمة المرور",
+      "name": "الاسم",
+      "fullName": "الاسم الكامل",
+      "status": "الحالة",
+      "actions": "الإجراءات",
+      "active": "نشط",
+      "inactive": "غير نشط",
+      "optional": "اختياري",
+      "required": "مطلوب"
+    },
+    "messages": {
+      "noData": "لا توجد بيانات",
+      "operationSuccess": "تمت العملية بنجاح",
+      "operationFailed": "فشلت العملية",
+      "confirmDelete": "هل أنت متأكد من حذف هذا العنصر؟ لا يمكن التراجع عن هذا الإجراء.",
+      "selectAtLeastOne": "يرجى اختيار عنصر واحد على الأقل"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "تسجيل الدخول",
+      "subtitle": "مرحباً بك في نظام إدارة فندق رواجو",
+      "email": "البريد الإلكتروني",
+      "emailPlaceholder": "hotel@example.com",
+      "password": "كلمة المرور",
+      "passwordPlaceholder": "أدخل كلمة المرور",
+      "forgotPassword": "نسيت كلمة المرور",
+      "dontHaveAccount": "ليس لديك حساب؟",
+      "register": "التسجيل",
+      "loggingIn": "جاري تسجيل الدخول...",
+      "loginButton": "تسجيل الدخول",
+      "verifyOtp": {
+        "title": "التحقق من رمز OTP",
+        "subtitle": "أدخل الرمز المكون من 6 أرقام المرسل إلى {email}",
+        "otpLabel": "رمز OTP",
+        "back": "رجوع",
+        "verify": "تحقق",
+        "verifying": "جاري التحقق...",
+        "resendCode": "إعادة إرسال الرمز",
+        "resending": "جاري إعادة الإرسال...",
+        "resendCountdown": "إعادة إرسال الرمز ({seconds}ث)"
+      },
+      "toasts": {
+        "otpSent": "تم إرسال رمز OTP",
+        "otpSentDescription": "تم إرسال رمز OTP إلى بريدك الإلكتروني. يرجى التحقق لإكمال تسجيل الدخول.",
+        "loginSuccessful": "تم تسجيل الدخول بنجاح",
+        "loginSuccessfulDescription": "تم تسجيل دخولك بنجاح.",
+        "otpResent": "تم إعادة إرسال رمز OTP",
+        "otpResentDescription": "تم إرسال رمز تحقق جديد إلى بريدك الإلكتروني.",
+        "otpVerified": "تم التحقق من رمز OTP",
+        "otpVerifiedDescription": "تم تسجيل الدخول بنجاح!",
+        "loginFailed": "فشل تسجيل الدخول",
+        "resendFailed": "فشل إعادة الإرسال",
+        "verificationFailed": "فشل التحقق",
+        "invalidOtp": "رمز OTP غير صحيح",
+        "invalidOtpDescription": "يرجى إدخال رمز مكون من 6 أرقام"
+      }
+    },
+    "register": {
+      "title": "التسجيل",
+      "subtitle": "إنشاء حساب الفندق الخاص بك",
+      "hotelName": "اسم الفندق",
+      "description": "الوصف",
+      "location": "الموقع",
+      "locationPlaceholder": "رابط خرائط جوجل",
+      "email": "البريد الإلكتروني",
+      "additionalEmail": "بريد إلكتروني إضافي (اختياري)",
+      "mobile": "الجوال",
+      "additionalMobile": "جوال إضافي (اختياري)",
+      "password": "كلمة المرور",
+      "passwordConfirm": "تأكيد كلمة المرور",
+      "stars": "النجوم",
+      "facilities": "المرافق",
+      "selectFacilities": "اختر المرافق",
+      "passwordRequirements": {
+        "minLength": "8 أحرف على الأقل",
+        "hasUppercase": "يحتوي على حرف كبير واحد",
+        "hasNumber": "يحتوي على رقم واحد",
+        "hasSymbol": "يحتوي على رمز واحد"
+      },
+      "registerButton": "التسجيل",
+      "registering": "جاري التسجيل...",
+      "verifyOtp": {
+        "title": "التحقق من التسجيل",
+        "subtitle": "أدخل الرمز المكون من 6 أرقام المرسل إلى بريدك الإلكتروني",
+        "otpLabel": "رمز OTP",
+        "back": "رجوع",
+        "verify": "تحقق",
+        "verifying": "جاري التحقق...",
+        "resendCode": "إعادة إرسال الرمز",
+        "resending": "جاري إعادة الإرسال...",
+        "resendCountdown": "إعادة إرسال الرمز ({seconds}ث)"
+      },
+      "toasts": {
+        "otpSent": "تم إرسال رمز OTP",
+        "otpSentDescription": "تم إرسال رمز تحقق إلى بريدك الإلكتروني. يرجى التحقق لإكمال التسجيل.",
+        "accountCreated": "تم إنشاء الحساب",
+        "accountCreatedDescription": "تم إنشاء حسابك بنجاح. مرحباً!",
+        "otpResent": "تم إعادة إرسال رمز OTP",
+        "otpResentDescription": "تم إرسال رمز تحقق جديد إلى بريدك الإلكتروني.",
+        "registrationFailed": "فشل التسجيل",
+        "resendFailed": "فشل إعادة الإرسال",
+        "verificationFailed": "فشل التحقق"
+      }
+    },
+    "forgotPassword": {
+      "title": "نسيت كلمة المرور",
+      "subtitle": "أدخل عنوان بريدك الإلكتروني وسنرسل لك رمز تحقق",
+      "email": "البريد الإلكتروني",
+      "emailPlaceholder": "hotel@example.com",
+      "sendCode": "إرسال الرمز",
+      "sending": "جاري الإرسال...",
+      "backToLogin": "العودة لتسجيل الدخول",
+      "verifyOtp": {
+        "title": "التحقق من رمز OTP",
+        "subtitle": "أدخل الرمز المكون من 6 أرقام المرسل إلى {email}",
+        "otpLabel": "رمز OTP",
+        "back": "رجوع",
+        "verify": "تحقق",
+        "verifying": "جاري التحقق...",
+        "resendCode": "إعادة إرسال الرمز",
+        "resending": "جاري إعادة الإرسال...",
+        "resendCountdown": "إعادة إرسال الرمز ({seconds}ث)"
+      },
+      "resetPassword": {
+        "title": "إعادة تعيين كلمة المرور",
+        "subtitle": "أدخل كلمة المرور الجديدة",
+        "newPassword": "كلمة المرور الجديدة",
+        "newPasswordPlaceholder": "أدخل كلمة المرور الجديدة",
+        "confirmPassword": "تأكيد كلمة المرور",
+        "confirmPasswordPlaceholder": "أكد كلمة المرور الجديدة",
+        "passwordRequirements": {
+          "minLength": "8 أحرف على الأقل",
+          "hasNumber": "يحتوي على رقم واحد",
+          "hasSymbol": "يحتوي على رمز واحد"
+        },
+        "back": "رجوع",
+        "resetPassword": "إعادة تعيين كلمة المرور",
+        "resetting": "جاري إعادة التعيين..."
+      },
+      "toasts": {
+        "resetCodeSent": "تم إرسال رمز إعادة التعيين",
+        "resetCodeSentDescription": "تم إرسال رمز تحقق إلى بريدك الإلكتروني.",
+        "otpVerified": "تم التحقق من رمز OTP",
+        "otpVerifiedDescription": "تم التحقق من الرمز بنجاح. يرجى إدخال كلمة المرور الجديدة.",
+        "passwordResetSuccessful": "تم إعادة تعيين كلمة المرور بنجاح",
+        "passwordResetSuccessfulDescription": "تم إعادة تعيين كلمة المرور بنجاح. يمكنك الآن تسجيل الدخول بكلمة المرور الجديدة.",
+        "otpResent": "تم إعادة إرسال رمز OTP",
+        "otpResentDescription": "تم إرسال رمز تحقق جديد إلى بريدك الإلكتروني.",
+        "failedToSendCode": "فشل إرسال الرمز",
+        "verificationFailed": "فشل التحقق",
+        "resetFailed": "فشل إعادة التعيين",
+        "resendFailed": "فشل إعادة الإرسال"
+      }
+    }
+  },
+  "dashboard": {
+    "navigation": {
+      "dashboard": "لوحة التحكم",
+      "rooms": "الغرف",
+      "roomsImporter": "استيراد الغرف",
+      "bookings": "الحجوزات",
+      "reviews": "المراجعات",
+      "payout": "المدفوعات",
+      "settings": "الإعدادات",
+      "account": "الحساب",
+      "logout": "تسجيل الخروج"
+    },
+    "stats": {
+      "totalRooms": "إجمالي الغرف",
+      "totalRoomsDescription": "جميع الغرف في فندقك",
+      "availableRooms": "الغرف المتاحة",
+      "availableRoomsDescription": "متاحة حالياً",
+      "confirmedBookings": "الحجوزات المؤكدة",
+      "confirmedBookingsDescription": "حجوزات مؤكدة نشطة",
+      "pendingBookings": "الحجوزات المعلقة",
+      "pendingBookingsDescription": "في انتظار التأكيد",
+      "totalRevenue": "إجمالي الإيرادات",
+      "totalRevenueDescription": "إجمالي الأموال المكتسبة"
+    },
+    "title": "لوحة التحكم",
+    "subtitle": "مرحباً بك في لوحة إدارة الفندق"
+  },
+  "rooms": {
+    "title": "الغرف",
+    "subtitle": "إدارة غرف فندقك",
+    "addRoom": "إضافة غرفة",
+    "createRoom": "إنشاء غرفة جديدة",
+    "createRoomDescription": "أضف غرفة جديدة إلى فندقك",
+    "editRoom": "تعديل الغرفة",
+    "editRoomDescription": "تحديث معلومات الغرفة",
+    "table": {
+      "image": "الصورة",
+      "roomName": "اسم الغرفة",
+      "type": "النوع",
+      "beds": "الأسرّة",
+      "sqft": "المساحة",
+      "price": "السعر",
+      "facilities": "المرافق",
+      "numberOfRooms": "عدد الغرف",
+      "status": "الحالة",
+      "rating": "التقييم",
+      "actions": "الإجراءات",
+      "viewDetails": "عرض التفاصيل",
+      "edit": "تعديل",
+      "delete": "حذف",
+      "noRooms": "لم يتم العثور على غرف. قم بإنشاء أول غرفة للبدء."
+    },
+    "form": {
+      "roomName": "اسم الغرفة",
+      "roomType": "نوع الغرفة",
+      "bedsCount": "عدد الأسرّة",
+      "sqft": "المساحة بالقدم المربع",
+      "price": "السعر",
+      "facilities": "المرافق",
+      "featureImage": "الصورة الرئيسية",
+      "galleryImages": "صور المعرض",
+      "numberOfRooms": "عدد الغرف",
+      "priceIncreaseRanges": "نطاقات زيادة السعر",
+      "excludedDateRanges": "نطاقات التواريخ المستثناة",
+      "addPriceRange": "إضافة نطاق سعر",
+      "addExcludedRange": "إضافة نطاق مستثنى",
+      "startDate": "تاريخ البداية",
+      "endDate": "تاريخ النهاية",
+      "increaseValue": "قيمة الزيادة"
+    },
+    "toasts": {
+      "roomCreated": "تم إنشاء الغرفة بنجاح",
+      "roomUpdated": "تم تحديث الغرفة بنجاح",
+      "roomDeleted": "تم حذف الغرفة بنجاح"
+    }
+  },
+  "bookings": {
+    "title": "الحجوزات",
+    "subtitle": "إدارة حجوزات الفندق",
+    "table": {
+      "id": "المعرف",
+      "property": "الغرفة",
+      "checkIn": "تاريخ الوصول",
+      "checkOut": "تاريخ المغادرة",
+      "subtotal": "المجموع الفرعي",
+      "tax": "الضريبة",
+      "total": "الإجمالي",
+      "status": "الحالة",
+      "actions": "الإجراءات",
+      "approve": "موافقة",
+      "reject": "رفض",
+      "noBookings": "لم يتم العثور على حجوزات."
+    },
+    "reject": {
+      "title": "رفض الحجز",
+      "description": "يرجى تقديم سبب الإلغاء لرفض هذا الحجز.",
+      "cancelReason": "سبب الإلغاء (اختياري)",
+      "cancelReasonPlaceholder": "أدخل سبب الإلغاء",
+      "cancel": "إلغاء",
+      "rejectBooking": "رفض الحجز",
+      "rejecting": "جاري الرفض..."
+    },
+    "toasts": {
+      "approved": "تمت الموافقة على الحجز بنجاح",
+      "rejected": "تم رفض الحجز بنجاح",
+      "approvalFailed": "فشلت الموافقة",
+      "rejectionFailed": "فشل الرفض"
+    }
+  },
+  "payout": {
+    "title": "ملفات الدفع",
+    "subtitle": "إدارة ملفات الدفع الخاصة بك",
+    "addProfile": "إضافة ملف",
+    "createProfile": "إنشاء ملف دفع",
+    "createProfileDescription": "أضف ملف دفع جديد لاستلام المدفوعات",
+    "editProfile": "تعديل ملف الدفع",
+    "editProfileDescription": "تحديث معلومات ملف الدفع",
+    "viewProfile": "تفاصيل ملف الدفع",
+    "table": {
+      "id": "المعرف",
+      "name": "الاسم",
+      "type": "النوع",
+      "fullName": "الاسم الكامل",
+      "accountWallet": "الحساب/المحفظة",
+      "status": "الحالة",
+      "actions": "الإجراءات",
+      "view": "عرض",
+      "edit": "تعديل",
+      "request": "طلب",
+      "delete": "حذف",
+      "noProfiles": "لم يتم العثور على ملفات دفع. قم بإنشاء أول ملف للبدء.",
+      "bankAccount": "حساب بنكي",
+      "mobileWallet": "محفظة جوال",
+      "unknown": "غير معروف"
+    },
+    "form": {
+      "profileName": "اسم الملف",
+      "profileNamePlaceholder": "الحساب البنكي الرئيسي",
+      "fullName": "الاسم الكامل",
+      "fullNamePlaceholder": "أحمد محمد",
+      "methodId": "معرف الطريقة",
+      "methodIdPlaceholder": "1",
+      "methodIdDescription": "1 = بنك، 2 = محفظة جوال",
+      "status": "الحالة",
+      "statusDescription": "0 = غير نشط، 1 = نشط",
+      "bankName": "اسم البنك (اختياري)",
+      "bankNamePlaceholder": "البنك الوطني",
+      "bankNameDescription": "مطلوب لطريقة الحساب البنكي",
+      "bankAccountNumber": "رقم الحساب البنكي (اختياري)",
+      "bankAccountNumberPlaceholder": "1234567890",
+      "bankAccountNumberDescription": "مطلوب لطريقة الحساب البنكي",
+      "walletNumber": "رقم المحفظة (اختياري)",
+      "walletNumberPlaceholder": "01234567890",
+      "walletNumberDescription": "مطلوب لطريقة محفظة الجوال"
+    },
+    "request": {
+      "title": "طلب دفع",
+      "description": "اختر الحجوزات المراد تضمينها في طلب الدفع هذا",
+      "noBookings": "لا توجد حجوزات متاحة",
+      "bookingsSelected": "تم اختيار {count} حجز",
+      "cancel": "إلغاء",
+      "requestPayout": "طلب الدفع",
+      "requesting": "جاري الطلب..."
+    },
+    "delete": {
+      "title": "حذف ملف الدفع",
+      "description": "هل أنت متأكد من حذف ملف الدفع هذا؟ لا يمكن التراجع عن هذا الإجراء.",
+      "cancel": "إلغاء",
+      "delete": "حذف",
+      "deleting": "جاري الحذف..."
+    },
+    "toasts": {
+      "profileCreated": "تم إنشاء ملف الدفع بنجاح",
+      "profileUpdated": "تم تحديث ملف الدفع بنجاح",
+      "profileDeleted": "تم حذف ملف الدفع بنجاح",
+      "payoutRequested": "تم طلب الدفع بنجاح",
+      "operationFailed": "فشلت العملية",
+      "requestFailed": "فشل الطلب",
+      "deletionFailed": "فشل الحذف"
+    }
+  },
+  "settings": {
+    "title": "الإعدادات",
+    "subtitle": "إدارة إعدادات الحساب والتفضيلات.",
+    "tabs": {
+      "profile": "الملف الشخصي",
+      "email": "تغيير البريد الإلكتروني"
+    },
+    "profile": {
+      "title": "معلومات الملف الشخصي",
+      "description": "تحديث معلومات ملف الفندق الشخصي."
+    },
+    "email": {
+      "title": "تغيير البريد الإلكتروني",
+      "description": "تغيير عنوان بريدك الإلكتروني. ستصلك رسالة OTP للتحقق من البريد الإلكتروني الجديد."
+    }
+  },
+  "reviews": {
+    "title": "المراجعات",
+    "subtitle": "عرض وإدارة مراجعات الغرف",
+    "table": {
+      "roomName": "اسم الغرفة",
+      "rating": "التقييم",
+      "comment": "التعليق",
+      "reviewer": "المراجع",
+      "date": "التاريخ"
+    },
+    "filter": {
+      "allRooms": "جميع الغرف",
+      "selectRoom": "تصفية حسب الغرفة"
+    },
+    "noReviews": "لم يتم العثور على مراجعات"
+  },
+  "calendar": {
+    "title": "التقويم",
+    "subtitle": "عرض الحجوزات بصيغة التقويم",
+    "loading": "جاري التحميل...",
+    "more": "المزيد",
+    "selectDateRange": "انقر لتحديد نطاق تاريخ",
+    "selectEndDate": "انقر لتحديد تاريخ الانتهاء",
+    "rangeSelected": "النطاق المحدد: {start} - {end}",
+    "clearSelection": "مسح",
+    "clearSelectedDays": "مسح الأيام المحددة",
+    "daysSelected": "أيام محددة",
+    "doubleClickToManage": "انقر نقرًا مزدوجًا أو Ctrl+Click لإدارة التوفر",
+    "roomSelector": {
+      "allRooms": "جميع الغرف"
+    },
+    "sidePanel": {
+      "title": "الحجوزات",
+      "noBookings": "لا توجد حجوزات لهذا التاريخ",
+      "checkIn": "تاريخ الوصول",
+      "checkOut": "تاريخ المغادرة",
+      "total": "الإجمالي"
+    },
+    "availabilityDialog": {
+      "title": "إدارة التوفر",
+      "descriptionSingle": "إدارة التوفر لـ {date}",
+      "descriptionRange": "إدارة التوفر من {start} إلى {end}",
+      "selectRoomWarning": "يرجى تحديد غرفة من محدد الغرف أعلاه",
+      "selectAction": "اختر الإجراء",
+      "markUnavailable": "تعيين غير متاح",
+      "increasePrice": "زيادة السعر",
+      "decreasePrice": "تقليل السعر",
+      "increasePercentage": "نسبة الزيادة",
+      "decreasePercentage": "نسبة النقصان",
+      "selectRoom": "يرجى تحديد غرفة أولاً",
+      "enterValue": "يرجى إدخال قيمة",
+      "invalidValue": "يرجى إدخال رقم موجب صحيح",
+      "cancel": "إلغاء",
+      "apply": "تطبيق",
+      "saving": "جاري الحفظ...",
+      "success": "تم تحديث التوفر بنجاح",
+      "error": "فشل تحديث التوفر"
+    }
+  },
+  "validation": {
+    "required": "{field} مطلوب",
+    "invalidEmail": "عنوان بريد إلكتروني غير صحيح",
+    "passwordMinLength": "يجب أن تكون كلمة المرور 8 أحرف على الأقل",
+    "passwordUppercase": "يجب أن تحتوي كلمة المرور على حرف كبير واحد على الأقل",
+    "passwordNumber": "يجب أن تحتوي كلمة المرور على رقم واحد على الأقل",
+    "passwordSymbol": "يجب أن تحتوي كلمة المرور على رمز واحد على الأقل",
+    "passwordsDoNotMatch": "كلمات المرور غير متطابقة",
+    "invalidOtp": "يجب أن يكون رمز OTP 6 أرقام",
+    "otpNumbersOnly": "يجب أن يحتوي رمز OTP على أرقام فقط",
+    "minLength": "يجب أن يكون {field} {min} أحرف على الأقل",
+    "maxLength": "يجب أن يكون {field} {max} أحرف على الأكثر",
+    "minValue": "يجب أن يكون {field} {min} على الأقل",
+    "maxValue": "يجب أن يكون {field} {max} على الأكثر",
+    "invalidUrl": "يرجى إدخال رابط خرائط جوجل صحيح (مثل: https://maps.google.com/...)",
+    "dateFormat": "يجب أن يكون التاريخ بصيغة YYYY-MM-DD",
+    "endDateAfterStart": "يجب أن يكون تاريخ النهاية بعد أو يساوي تاريخ البداية",
+    "bedsCountRange": "يجب أن يكون عدد الأسرّة بين 1 و 100",
+    "sqftRange": "يجب أن تكون المساحة بالقدم المربع بين 5 و 10000",
+    "priceRange": "يجب أن يكون السعر بين 1 و 1,000,000",
+    "atLeastOneFacility": "مطلوب مرفق واحد على الأقل",
+    "featureImageRequired": "الصورة الرئيسية مطلوبة",
+    "numberOfRoomsMin": "يجب أن يكون عدد الغرف 1 على الأقل",
+    "roomNameLength": "يجب أن يكون اسم الغرفة 1-500 حرف"
+  },
+  "errors": {
+    "generic": "حدث خطأ",
+    "networkError": "خطأ في الشبكة. يرجى التحقق من اتصالك.",
+    "unauthorized": "غير مصرح. يرجى تسجيل الدخول مرة أخرى.",
+    "notFound": "المورد غير موجود",
+    "serverError": "خطأ في الخادم. يرجى المحاولة مرة أخرى لاحقاً."
+  }
+}
